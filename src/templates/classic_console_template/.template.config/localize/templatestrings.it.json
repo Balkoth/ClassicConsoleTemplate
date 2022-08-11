@@ -1,5 +1,5 @@
 ﻿{
-  "author": "Microsoft",
+  "author": "Balkoth",
   "name": "App console",
   "description": "Progetto per la creazione di un'applicazione da riga di comando eseguibile in .NET in Windows, Linux e macOS",
   "symbols/TargetFrameworkOverride/description": "Ignora il framework di destinazione",
@@ -14,6 +14,8 @@
   "symbols/skipRestore/displayName": "Salta ripristino",
   "symbols/UseProgramMain/description": "Indica se generare una classe Program esplicita e un metodo Main anziché istruzioni di primo livello.",
   "symbols/UseProgramMain/displayName": "Non usare istruzioni di primo livello",
+  "symbols/DoNotUseImplicitUsings/description": "Indica se generare il file di progetto con gli utilizzi impliciti specificati.",
+  "symbols/DoNotUseImplicitUsings/displayName": "Non usare utilizzi impliciti",
   "postActions/restore/description": "Ripristina i pacchetti NuGet richiesti da questo progetto.",
   "postActions/restore/manualInstructions/default/text": "Esegui 'dotnet restore'",
   "postActions/open-file/description": "Apre Program.cs nell'editor"

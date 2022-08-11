@@ -1,17 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Microsoft",
-  "classifications": [
-    "Common",
-    "Console"
-  ],
+  "author": "Balkoth",
+  "classifications": [ "Linux", "macOS", "Windows", "Console" ],
   "name": "Console App",
   "generatorVersions": "[1.0.0.0-*)",
   "description": "A project for creating a command-line application that can run on .NET on Windows, Linux and macOS",
-  "groupIdentity": "Microsoft.Common.Console",
-  "precedence": "8000",
-  "identity": "Microsoft.Common.Console.CSharp.6.0",
-  "shortName": "console",
+  "identity": "Balkoth.Classic.Console",
+  "shortName": "cca",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -64,9 +59,16 @@
     "UseProgramMain": {
       "type": "parameter",
       "datatype": "bool",
-      "defaultValue": "false",
+      "defaultValue": "true",
       "description": "Whether to generate an explicit Program class and Main method instead of top-level statements.",
       "displayName": "Do not use top-level statements"
+    },
+    "DoNotUseImplicitUsings": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Whether to generate the project file with implicit usings specified.",
+      "displayName": "Do not use implicit usings"
     },
     "csharp10orLater": {
       "type": "generated",
@@ -97,7 +99,7 @@
     },
     "csharpFeature_ImplicitUsings": {
       "type": "computed",
-      "value": "csharp10orLater == \"true\""
+      "value": "(csharp10orLater == \"true\" && DoNotUseImplicitUsings != \"true\")"
     },
     "csharpFeature_Nullable": {
       "type": "computed",

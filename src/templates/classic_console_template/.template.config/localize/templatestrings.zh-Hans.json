@@ -1,5 +1,5 @@
 ﻿{
-  "author": "Microsoft",
+  "author": "Balkoth",
   "name": "控制台应用",
   "description": "用于创建可在 Windows、Linux 和 macOS 上 .NET 上运行的命令行应用程序的项目",
   "symbols/TargetFrameworkOverride/description": "替代目标框架",
@@ -14,6 +14,8 @@
   "symbols/skipRestore/displayName": "跳过还原",
   "symbols/UseProgramMain/description": "是否生成显式程序类和主方法，而不是顶级语句。",
   "symbols/UseProgramMain/displayName": "不使用顶级语句",
+  "symbols/DoNotUseImplicitUsings/description": "是否生成指定隐式使用的项目文件。",
+  "symbols/DoNotUseImplicitUsings/displayName": "不要使用隐式使用",
   "postActions/restore/description": "还原此项目所需的 NuGet 包。",
   "postActions/restore/manualInstructions/default/text": "运行“dotnet restore”",
   "postActions/open-file/description": "在编辑器中打开 Program.cs"

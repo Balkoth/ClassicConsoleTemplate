@@ -1,5 +1,5 @@
 {
-  "author": "Microsoft",
+  "author": "Balkoth",
   "name": "Console App",
   "description": "A project for creating a command-line application that can run on .NET on Windows, Linux and macOS",
   "symbols/TargetFrameworkOverride/description": "Overrides the target framework",
@@ -14,6 +14,8 @@
   "symbols/skipRestore/displayName": "Skip restore",
   "symbols/UseProgramMain/description": "Whether to generate an explicit Program class and Main method instead of top-level statements.",
   "symbols/UseProgramMain/displayName": "Do not use top-level statements",
+  "symbols/DoNotUseImplicitUsings/description": "Whether to generate the project file with implicit usings specified.",
+  "symbols/DoNotUseImplicitUsings/displayName": "Do not use implicit usings",
   "postActions/restore/description": "Restore NuGet packages required by this project.",
   "postActions/restore/manualInstructions/default/text": "Run 'dotnet restore'",
   "postActions/open-file/description": "Opens Program.cs in the editor"

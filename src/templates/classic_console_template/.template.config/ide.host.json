@@ -11,6 +11,10 @@
     {
       "id": "UseProgramMain",
       "isVisible": "true"
+    },
+    {
+      "id": "DoNotUseImplicitUsings",
+      "isVisible": "true"
     }
   ]
 }

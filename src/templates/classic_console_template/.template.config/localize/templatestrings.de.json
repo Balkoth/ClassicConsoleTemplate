@@ -1,5 +1,5 @@
 ﻿{
-  "author": "Microsoft",
+  "author": "Balkoth",
   "name": "Konsolen-App",
   "description": "Ein Projekt zum Erstellen einer Befehlszeilenanwendung, die mit .NET unter Windows, Linux und macOS ausgeführt werden kann",
   "symbols/TargetFrameworkOverride/description": "Überschreibt das Zielframework",
@@ -14,6 +14,8 @@
   "symbols/skipRestore/displayName": "Wiederherstellung überspringen",
   "symbols/UseProgramMain/description": "Gibt an, ob anstelle von Anweisungen der obersten Ebene eine explizite Programmklasse und eine Main-Methode generiert werden soll.",
   "symbols/UseProgramMain/displayName": "Keine Anweisungen der obersten Ebene verwenden",
+  "symbols/DoNotUseImplicitUsings/description": "Gibt an ob die Projektdatei mit impliziten using-Anweisungen erzeugt wird.",
+  "symbols/DoNotUseImplicitUsings/displayName": "Keine impliziten using-Anweisungen verwenden",
   "postActions/restore/description": "Stellt die NuGet-Pakete wieder her, die für dieses Projekt erforderlich sind.",
   "postActions/restore/manualInstructions/default/text": "„dotnet restore“ ausführen",
   "postActions/open-file/description": "Öffnet „Program.cs“ im Editor"

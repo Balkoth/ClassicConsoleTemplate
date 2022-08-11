@@ -20,6 +20,10 @@
     "UseProgramMain": {
       "longName": "use-program-main",
       "shortName": ""
+    },
+    "DoNotUseImplicitUsings": {
+      "longName": "do-not-use-implicit-usings",
+      "shortName": ""
     }
   },
   "usageExamples": [

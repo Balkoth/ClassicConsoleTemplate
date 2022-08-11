@@ -1,5 +1,5 @@
 ﻿{
-  "author": "Microsoft",
+  "author": "Balkoth",
   "name": "콘솔 앱",
   "description": "Windows, Linux 및 macOS의 .NET에서 실행할 수 있는 명령줄 응용 프로그램을 만들기 위한 프로젝트",
   "symbols/TargetFrameworkOverride/description": "대상 프레임워크를 재정의합니다",
@@ -14,6 +14,8 @@
   "symbols/skipRestore/displayName": "복원 건너뛰기",
   "symbols/UseProgramMain/description": "최상위 문 대신 명시적 Program 클래스 및 Main 메서드를 생성할지 여부입니다.",
   "symbols/UseProgramMain/displayName": "최상위 문 사용 안 함",
+  "symbols/DoNotUseImplicitUsings/description": "암시적 사용이 지정된 프로젝트 파일을 생성할지 여부입니다.",
+  "symbols/DoNotUseImplicitUsings/displayName": "암시적 사용을 사용하지 마십시오.",
   "postActions/restore/description": "이 프로젝트에 필요한 NuGet 패키지를 복원합니다.",
   "postActions/restore/manualInstructions/default/text": "'dotnet restore' 실행",
   "postActions/open-file/description": "편집기에서 Program.cs를 엽니다"

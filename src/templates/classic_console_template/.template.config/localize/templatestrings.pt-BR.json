@@ -1,5 +1,5 @@
 ﻿{
-  "author": "Microsoft",
+  "author": "Balkoth",
   "name": "Aplicativo do Console",
   "description": "Um projeto para criar um aplicativo de linha de comando que pode ser executado no .NET no Windows, Linux e macOS",
   "symbols/TargetFrameworkOverride/description": "Substitui a estrutura de destino",
@@ -14,6 +14,8 @@
   "symbols/skipRestore/displayName": "Ignorar restauração",
   "symbols/UseProgramMain/description": "Se deve gerar uma classe de Programa explícita e um método principal em vez de instruções de nível superior.",
   "symbols/UseProgramMain/displayName": "Não usar instruções de nível superior",
+  "symbols/DoNotUseImplicitUsings/description": "Se deve gerar o arquivo de projeto com usos implícitos especificados.",
+  "symbols/DoNotUseImplicitUsings/displayName": "Não usar usos implícitos",
   "postActions/restore/description": "Restaure os pacotes NuGet exigidos por este projeto.",
   "postActions/restore/manualInstructions/default/text": "Executar 'dotnet restore'",
   "postActions/open-file/description": "Abre Program.cs no editor"
