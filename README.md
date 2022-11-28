@@ -7,10 +7,10 @@ The initial commit of this repository contains the template as it is delivered t
 In the following commits attempts are made to bring back the template as it was in earlier versions.
 
 ## Installing
-dotnet new --install "PATH_TO_NUPKG_FILE"
+dotnet new install "PATH_TO_NUPKG_FILE"
 
 ## Uninstalling
-dotnet new --uninstall "PATH_TO_NUPKG_FILE"
+dotnet new uninstall "PATH_TO_NUPKG_FILE"
 
 ## Contributing
 Contributions are welcome, especially for the language files, as i just ran the english files through Google Translate.
